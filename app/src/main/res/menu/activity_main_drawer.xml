@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Summary" />
+        <item
+            android:id="@+id/card"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cards" />
+        <item
+            android:id="@+id/tutorial"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tutorial" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/share_"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share Money" />
+            <item
+                android:id="@+id/send_money"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Money" />
+        </menu>
+    </item>
+
+</menu>

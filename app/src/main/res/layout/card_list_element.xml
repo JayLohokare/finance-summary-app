@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:background="@android:color/white"
+    android:layout_margin="5dp"
+    android:id="@+id/lin"
+    >
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/barclays_card"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:color="@android:color/white"
+        android:id="@+id/editTextCard"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Card Number"
+        android:singleLine="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="40dp" />
+
+
+</RelativeLayout>
+
+
+
+
